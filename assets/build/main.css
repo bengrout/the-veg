@@ -1,0 +1,109 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+body {
+  background: #FFEB99;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #417505;
+}
+
+a:hover {
+  color: #A4C5C6;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Lora", serif;
+  font-weight: 900;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
+
+h2 {
+  font-size: 1.625rem;
+  font-family: "Lora", serif;
+  font-weight: 900;
+}
+@media (max-width: 1200px) {
+  h2 {
+    font-size: calc(1.2875rem + 0.45vw);
+  }
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5, h6 {
+  font-size: 1rem;
+}
+
+.logo-wrapper {
+  background: #FFF;
+  border-radius: 0 0 100% 0;
+  padding: 20px;
+}
+
+.site-footer {
+  font-family: "Lora", serif;
+  background: #D4EBD0;
+  padding: 100px 0;
+}
+.site-footer a {
+  color: #6C466F;
+}
+
+.introduction {
+  font-family: "Lora", serif;
+}
+.introduction-text {
+  color: #6C466F;
+  font-size: 200%;
+}
+
+.card {
+  border-color: #FFEB99;
+  color: #333;
+}
+.card:hover {
+  color: #417505;
+}
+.card .card-header {
+  background-color: #417505;
+}
+.card .card-footer {
+  background-color: #A4C5C6;
+}
+.card .card-title {
+  margin-top: -50px;
+  background: #FFF;
+  padding: 15px;
+}
+
+.recipe {
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

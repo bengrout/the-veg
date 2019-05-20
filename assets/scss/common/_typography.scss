@@ -1,0 +1,35 @@
+@import "../../../node_modules/rfs/scss";
+
+$font-main: 'Helvetica', 'Arial', sans-serif;
+$font-display: 'Lora', serif;
+
+body {
+	font-family: $font-main;
+	font-size: 16px;
+	line-height: 1.5;
+	color: $color-grey-2;
+}
+
+h1 {
+	@include responsive-font-size(40px);
+	font-family: $font-display;
+	font-weight: 900;
+}
+
+h2 {
+	@include responsive-font-size(26px);
+	font-family: $font-display;
+	font-weight: 900;
+}
+
+h3 {
+	@include responsive-font-size(20px);
+}
+
+h4 {
+	@include responsive-font-size(18px);
+}
+
+h5, h6 {
+	@include responsive-font-size(16px);
+}

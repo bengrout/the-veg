@@ -1,0 +1,17 @@
+.myComponent {
+	$block: &;
+	$altTheme: #{$block}--altTheme;	
+	&-title {
+		#{$altTheme} & {
+
+		}
+	}	
+
+	&-content {}
+}
+
+//  compiles to
+// .myComponent {}
+// .myComponent-title {}
+// .myComponent--altTheme .myComponent-title {}
+// .myComponent-content {}
